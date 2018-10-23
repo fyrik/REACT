@@ -1,5 +1,5 @@
 import React from 'react'
 import {render} from 'react-dom'
+import Article from './Article'
 
-var el = React.createElement('h1', null, 'hello WORLD');
-render(el, document.getElementById('container'));
+render(<Article />, document.getElementById('container'));
